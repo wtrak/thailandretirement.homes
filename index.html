@@ -7,6 +7,8 @@
   <meta name="description" content="Plan a Thailand retirement in Koh Samui: lifestyle, healthcare access, and income-producing homes. Learn more and see next steps." />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://thailandretirement.homes/" />
+  <link rel="preconnect" href="https://kohsamui.investments">
+  <link rel="dns-prefetch" href="https://kohsamui.investments">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Thailand Retirement Homes • Koh Samui" />
@@ -57,13 +59,37 @@
     <div class="badge">ThailandRetirement<span style="opacity:.7">.homes</span></div>
 
     <div class="card" role="region" aria-label="Thailand retirement homes intro">
-      <h1>Retire in Thailand — Make Koh Samui Home</h1>
+      <h1>Get Matched to Retirement-Friendly Homes in Koh Samui</h1>
       <p>Warm climate, world-class beaches, great healthcare access (Bangkok Hospital Samui), and a strong expat community. Many owners offset costs through seasonal rentals while enjoying months of personal use.</p>
       <p style="opacity:.9">See how budgets, neighborhoods (Bophut, Lamai, Chaweng Noi), and ownership paths fit a retirement plan—then share your timeline for curated options.</p>
-      <a class="cta" href="https://kohsamui.investments/?utm_source=thailandretirement.homes&utm_medium=referral&utm_campaign=cta">
-  Learn more &nbsp;→
-</a>
 
+      <a class="cta" href="https://kohsamui.investments/?utm_source=thailandretirement.homes&utm_medium=referral&utm_campaign=cta">
+        See retirement-friendly options &nbsp;→
+      </a>
+      <p style="font-size:13px;opacity:.85;margin-top:10px">Private intake • No spam • Instant guide access</p>
+
+      <p style="margin-top:10px">
+        <a class="cta" style="background:transparent;border-color:rgba(255,255,255,.35)"
+           href="https://kohsamui.investments/guide.html?utm_source=thailandretirement.homes&utm_medium=referral&utm_campaign=soft">
+          Preview the 2025 guide &nbsp;→
+        </a>
+      </p>
+
+      <script>
+        document.addEventListener('DOMContentLoaded', function(){
+          const cta = document.querySelector('.cta');
+          if(!cta) return;
+          cta.addEventListener('click', function(){
+            try {
+              gtag('event', 'cta_click', {
+                event_category: 'engagement',
+                event_label: 'thailandretirement.homes_primary',
+                value: 1
+              });
+            } catch(e){}
+          });
+        });
+      </script>
     </div>
 
     <div class="foot">
@@ -75,4 +101,3 @@
 </div>
 </body>
 </html>
-
